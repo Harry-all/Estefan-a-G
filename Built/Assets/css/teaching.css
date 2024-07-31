@@ -130,28 +130,6 @@ nav ul li a{
     transition-duration: .5s;
 }
 
-.dropdown-btn {
-    position: relative;
-}
-
-.dropdown {
-    display: none;
-    padding: 20px;
-    position: absolute;
-    background-color: rgb(250, 250, 250);
-    border-radius: 10px;
-}
-
-.dropdown a{
-    display: block;
-    margin: 0px 10px 20px 0px;
-    min-width: 100%;
-}
-
-.dropdown-btn:hover .dropdown {
-    display:block;
-}
-
 .hero {
     background: #e52d27;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #860004, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
