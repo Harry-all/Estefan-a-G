@@ -146,6 +146,7 @@ nav ul li a{
 }
 
 .texto-estefania{
+    text-align: center;
     padding: 20px;
     max-width: 900px;
     margin: auto;
@@ -182,8 +183,7 @@ nav ul li a{
 }
 
 .imagen-estefania img{
-    width: 300px;
-    height: 400px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -228,6 +228,9 @@ nav ul li a{
         font-size: var(--texto-cambiante-peq);
         color: white;
     }
+    .imagen-estefania img{
+        width: 60%;
+    }
 
   }
 
@@ -254,6 +257,9 @@ nav ul li a{
     }
     .end-nav div {
         display: flex;
+    }
+    .imagen-estefania img{
+        width: 80%;
     }
   }
 
