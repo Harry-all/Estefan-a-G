@@ -151,16 +151,23 @@ nav ul li a{
     width: 90%;
     margin: 50px auto;
 }
+.main-images {
+    display: flex;
+    justify-content: center;
+}
 .main-images img {
     border-radius: 5px;
-    width: 100%;
-    height: fit-content;
+    width: 90%;
 }
 
 @media(max-width: 915px){
     .me-images{
         flex-wrap: wrap;
         width: 100%;
+    }
+    .main-images img {
+        border-radius: 5px;
+        width: 80%;
     }
 }
 
