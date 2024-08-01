@@ -19,7 +19,7 @@ a {
 }
 
 :root {
-    --logo-fany: 30px;
+    --logo-fany: 35px;
     --texto-parrafos: 20px;
     --texto-nav: 18px;
     --texto-cambiante: 100px;
@@ -35,8 +35,10 @@ header {
 }
 
 .texto-logo{
-    margin-left: 30px;
-    font-weight: 600;
+    margin-left: 30px;    
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: italic;
     font-size: var(--logo-fany);
     min-width: fit-content;
 }
