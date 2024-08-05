@@ -145,8 +145,8 @@ nav ul li a{
     margin: 20px;
 }
 
-.main-text section{
-    margin: 130px auto;
+.main-text , section{
+    margin: 90px auto;
     max-width: 900px;
     line-height: 45px;
 }

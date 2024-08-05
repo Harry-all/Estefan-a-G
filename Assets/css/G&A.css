@@ -99,7 +99,6 @@ nav ul li a{
     .menu-button{
       display: block;
     }
-
     header {
         justify-content: space-around;
     }
@@ -133,21 +132,20 @@ nav ul li a{
     font-size: var(--texto-cambiante-pequeño);
     color: white;
     font-weight: 500;
+    margin: 20px;
 }
 
 
 .content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30vh;
-    margin: 20px;
     font-size: var(--texto-parrafos);
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 20px;
+}
+.content p {
+    margin-top: 40px;
 }
 
-.content h1 {
-    font-size: var(--subtitulo-grande);
-}
 
 .end-nav{
     padding-top: 150px;
@@ -173,3 +171,12 @@ nav ul li a{
     font-size: var(--texto-parrafos);
     font-weight: 600;
 }
+
+@media(max-width: 560px){
+    .end-nav nav {
+        display: none;
+    }
+    .end-nav div {
+        display: flex;
+    }
+  }

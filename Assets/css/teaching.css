@@ -159,7 +159,7 @@ nav ul li a{
     font-size: var(--texto-parrafos);
     max-width: 1000px;
     text-align: justify;
-    margin: 100px auto;
+    margin:20px auto;
 }
 
 .content-head span {
@@ -176,6 +176,7 @@ nav ul li a{
 
 .inti-logos{
     max-width: 300px;
+    margin-right: 15px;
 }
 
 .inti-logos img{
