@@ -41,6 +41,9 @@ header {
     min-width: fit-content;
 }
 
+.texto-logo a {
+    color: black;
+}
 
 nav ul{
     display: flex;
@@ -54,6 +57,7 @@ nav ul li {
 
 nav ul li a{
     height: 100%;
+    color: black;
 }
 
 .sidebar {
