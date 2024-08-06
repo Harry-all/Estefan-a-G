@@ -45,6 +45,10 @@ header {
     color: black;
 }
 
+nav {
+    z-index: 999;
+}
+
 nav ul{
     display: flex;
     margin-top: 10px;

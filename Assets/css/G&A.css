@@ -42,6 +42,9 @@ header {
     font-size: var(--logo-fany);
     min-width: fit-content;
 }
+nav {
+    z-index: 999;
+}
 
 nav ul{
     display: flex;
