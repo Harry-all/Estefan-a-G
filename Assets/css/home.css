@@ -102,21 +102,6 @@ nav ul li a{
     margin-bottom: 20px;
 }
 
-@media(max-width: 1000px){
-    .hideOnMobile{
-      display: none;
-    }
-    .menu-button{
-      display: block;
-    }
-
-    header {
-        justify-content: space-around;
-    }
-  }
-
-
-
 .hover a {
     transition: all;
     transition-duration: 1s;
@@ -247,11 +232,22 @@ nav ul li a{
 }
 
 @media(max-width: 1000px){
+    .hideOnMobile{
+        display: none;
+      }
+      .menu-button{
+        display: block;
+      }
+  
+      header {
+          justify-content: space-around;
+      }
     article {
         margin-bottom: 90px;
     }
     .bonjour{
         flex-wrap: wrap-reverse;
+        margin: 0px auto;
     }
     .imagen-estefania {
         margin: auto;
@@ -294,6 +290,7 @@ nav ul li a{
     .imagen-estefania img{
         width: 80%;
     }
+
   }
 
 
