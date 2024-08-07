@@ -218,12 +218,12 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: #F00000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 30px;
+    border-radius: 25px;
     
 }
 
@@ -253,7 +253,7 @@ nav ul li a{
     font-weight: 600;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1070px){
     .hideOnMobile{
         display: none;
       }

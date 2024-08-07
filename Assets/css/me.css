@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     overflow-x: hidden;
@@ -101,7 +101,7 @@ nav ul li a{
     margin-bottom: 20px;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1070px){
     .hideOnMobile{
       display: none;
     }
@@ -178,6 +178,8 @@ nav ul li a{
 
 .main-images p {
     max-width: 300px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(160, 160, 160);
     margin: auto;
     text-align: center;
 }
