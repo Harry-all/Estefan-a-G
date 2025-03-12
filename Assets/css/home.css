@@ -18,7 +18,7 @@ a {
 }
 
 :root {
-    --logo-fany: 40px;
+    --logo-fany: 30px;
     --texto-parrafos: 20px;
     --texto-nav: 18px;
     --texto-cambiante: 100px;
@@ -42,19 +42,20 @@ a {
 
 .c {
     margin-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 5vh;
     text-align: center;
 }
 
 .bloq-content div img{
-    height: 17vh;
-    width: auto;
+    height: 13vh;
+    width: 100%;
     margin: auto;
 }
 
 .flex {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .centrado div {
