@@ -41,13 +41,14 @@ a {
 }
 
 .c {
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 5vh;
-    text-align: center;
+    padding-left: 20px;
+    text-align: left;
 }
 
 .bloq-content div img{
-    height: 13vh;
+    height: 15vh;
     width: 100%;
     margin: auto;
 }
