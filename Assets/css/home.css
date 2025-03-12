@@ -40,6 +40,13 @@ a {
     z-index: 1000; /* Asegura que esté por encima del contenido */
 }
 
+.big-hello p{
+    text-align: center;
+    font-size: 110px;
+    margin: 40px 0px 50px;
+    font-weight: bolder;
+}
+
 .c {
     margin-top: 20px;
     margin-bottom: 5vh;
