@@ -65,7 +65,14 @@ a {
     margin-top: -40px;
 }
 
+.texto-logo{
+    margin-left: 30px;    
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: var(--logo-fany);
+    min-width: fit-content;
+}
 
-
-
-
+.texto-logo a {
+    color: black;
+}
